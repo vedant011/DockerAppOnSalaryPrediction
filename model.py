@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Loading the Data as Pandas DataFrame
-df = read_csv("Salary_Data.csv")
+df = read_csv("SalaryData.csv")
 
 # Preprocessing the Data according to our needs
 X = df["YearsExperience"].values.reshape(30,1)
